@@ -3,6 +3,7 @@ body{
     margin:0;
     text-align: center;
     font-family:'Merriweather',serif;
+    color: 40514E;
 }
 h1{
     margin-top: 0 ; 
@@ -15,6 +16,7 @@ color: #1033f5;
 h2{
     font-family: 'Montserrat',sans-serif;
     color: #66bfbf;
+    padding-top: 30px;
     
     
 }
@@ -26,13 +28,17 @@ h3{
 .first{
     background-color: #9fd3c7;
     padding-top: 100px;
+    
    
 }
 .middle{
     background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
-    
+   padding-top: 50px;
 }
 .last{
+    padding: 50px 0 20px ;
+    background-color: #118a7e;
+    
     
     
 }
@@ -48,6 +54,77 @@ h3{
 .skill-row{
     margin: 100px auto 100px auto;
     line-height: 2;
+   
+}
+
+#one{
+    padding-bottom: 50px;
+}
+hr{
+    border: dotted ;
+    border-color: gray;
+    border-bottom: none;
+    width: 5%;
+    border-width: 7px;
+    
+}
+
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 15%;
+  will-change: transform;
+  margin-bottom: 20px;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+
+  
+}
+.footer-link{
+    color:#155263;
+    margin:10px 20px;
+    text-decoration: none;
+  
+}
+.footer-link:hover{
+
+    color: #66bfbf;
+    
 }
 
 
